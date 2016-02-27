@@ -6,7 +6,7 @@
 
 set :stage, :production
 # Replace 127.0.0.1 with your server's IP address!
-server "54.169.216.7", :user => "ubuntu", :roles => %{web app}
+server "54.169.216.7", :user => "codeship", :roles => %{web app}
 # server 'example.com', user: 'deploy', roles: %w{app db web}, my_property: :my_value
 # server 'example.com', user: 'deploy', roles: %w{app web}, other_property: :other_value
 # server 'db.example.com', user: 'deploy', roles: %w{db}
